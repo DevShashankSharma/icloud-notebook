@@ -15,7 +15,7 @@ const SignUp = (props) => {
     const { name, email, password, cpassword } = credentials;
     if (password === cpassword) {
       const response = await fetch(
-        `http://localhost:5000/api/auth/createUser`,
+        `https://icloud-notebook-backend.vercel.app/api/auth/createUser`,
         {
           method: "POST",
           headers: {
