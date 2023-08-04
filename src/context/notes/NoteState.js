@@ -4,7 +4,7 @@ import NoteContext from "./noteContext";
 // After importing NoteContext State for note  is made
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000";
+  const host = "https://icloud-notebook-backend.vercel.app";
 
   const notesInitial = [];
 
